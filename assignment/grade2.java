@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class grade2{
- public static void main(String args[]) {
+public static void main(String args[]) {
     System.out.println("enter your score:");
     Scanner sc=new Scanner(System.in);
     int score =sc.nextInt();
@@ -9,7 +9,7 @@ if(score<=100 || score>=90)
     
 
 else if(score<90||score>=80 )
- System.out.println("grade B");
+System.out.println("grade B");
     
 
 else if(score>=70||score<80)
