@@ -7,7 +7,10 @@ public class power{
         int a =sc.nextInt();
         System.out.println("enter number b");
         int b =sc.nextInt();
-       long powers= a^b;
+       long powers=a;
+       for( a=0;a<n;a++){
+        powers=powers*a;
+       }
        System.out.println(powers);
     }
 }
