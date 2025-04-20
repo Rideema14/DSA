@@ -19,14 +19,15 @@ public class frequency {
                     break;
                 }
             }
+            if (!iscounted)
             for (int k = i + 1; k<arr.length; k++) {
-                if (!iscounted) {
-                    arr[i] = arr[k];
+                { if(arr[i]==arr[k])
                     count++;
                 }
 
             }
-            System.out.println();        }
-
+            System.out.println(arr[i] + " occurs " + count + " times.");
+         
+            }
     }
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class zeroes {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter number of elemts in array");
+        System.out.println("enter number of elements in array");
         int n = sc.nextInt();
         int[] arr = new int[n];
         int nonzero = 0;

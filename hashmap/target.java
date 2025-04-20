@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class target {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.println("enter number of elemts in array");
+        System.out.println("enter number of elements in array");
         int n =sc.nextInt();
         System.out.println("enter target");
     int  k=sc.nextInt();
