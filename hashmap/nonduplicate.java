@@ -33,5 +33,6 @@ public class nonduplicate {
                 
             
         }
+        sc.close();
     }
 }
