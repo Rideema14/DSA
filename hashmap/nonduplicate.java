@@ -15,8 +15,9 @@ public class nonduplicate {
         }
         HashMap<Integer, Integer> nonduplicate_map = new HashMap<>();
         int non;
+      
         int remove=0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++){
             if (nonduplicate_map.containsKey(arr[i])) {
                 non = nonduplicate_map.get(arr[i]);
                 nonduplicate_map.put(arr[i], non);
