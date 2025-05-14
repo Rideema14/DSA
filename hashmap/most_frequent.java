@@ -2,7 +2,7 @@ package hashmap;
 import java.util.HashMap;
 public class most_frequent {
     
-    public int mostFreqEle(int[] arr) {
+    public int mostFreqEle(int[] arr){
         HashMap<Integer, Integer> most = new HashMap<>();
         int max = 0;
         for (int i = 0; i < arr.length; i++) {
